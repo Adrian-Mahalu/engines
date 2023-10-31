@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FAANLWaZnBFofIqjTKw8tqky0rFwZAoTKwR4fCv3LHc5SUTLs4Z5I3WsXum43fNDqYwrQnzCfDglkPIVc3mjSQ==",
+  "success": true,
+  "projectFilePath": "C:\\MHL-Motors\\API\\MHL-Motors.API\\MHL-Motors.DataBuilders\\MHL-Motors.DataBuilders.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\amahalu\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\amahalu\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
