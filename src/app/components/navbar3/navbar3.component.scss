@@ -1,0 +1,349 @@
+.navbar-container {
+    width: 100vw;
+    height: 65px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    background-color: var(-mhl-dark-grey-color);
+}
+
+.navbar-branding { 
+    width: 50vw;
+    height: 65px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar-toolbox {
+    width: 50vw;
+    height: 65px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.tile-container {
+    width: 10vw;
+    height: 65px;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.post-an-ad-tile-container {
+    width: 10vw;
+    height: 65px;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.post-an-ad-button {
+    width: 80px;
+    height: 30px;
+
+    border: 0px;
+    border-radius: 15px;
+    font-family: "Lato-Regular";
+    font-weight: 600;
+    font-size: 1.4rem;
+
+    color: var(-mhl-dark-grey-color);
+    background-color: #D9D9D9;
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar-mhl-logo {
+    width: 200px;
+}
+
+.navbar-icon {
+    width: 40px;
+}
+
+span {
+    color: #f0f2f5;
+    font-family: "Lato-Regular";
+    font-weight: 300;
+    font-size: 22px;
+    align-self: center;
+}
+
+// --------------------------
+/* xxs */
+@media (min-width: 100px) {}
+/* xs */
+@media (min-width: 475px) {} 
+/* sm */
+@media (min-width: 640px) {} 
+/* md */
+@media (min-width: 768px) {} 
+/* lg */
+@media (min-width: 1024px) {} 
+/* xl */
+@media (min-width: 1280px) {} 
+/* 2xl */
+@media (min-width: 1536px) {}
+/* 3xl */
+@media (min-width: 1920px) {}
+// --------------------------- 
+
+@media (min-width: 100px) {
+    span{
+        display: none;
+    }
+}
+
+@media (min-width: 475px) {    
+    .navbar-branding {
+        justify-content: center;
+        width: 45vw;
+    }
+
+    .navbar-toolbox {
+        justify-content: center;
+        width: 45vw;
+    }
+
+    .tile-container {
+        width: 9vw;
+    }
+
+    .post-an-ad-tile-container {
+        width: 9vw;
+    }
+
+    span {
+        display: none;
+    }
+
+    .post-an-ad-button {
+        font-size: 8px;
+    }
+
+    .navbar-mhl-logo {
+        width: 200px;
+    }
+
+    .navbar-icon {
+        width: 40px;
+    }
+}
+
+@media (min-width: 640px) {    
+    .navbar-branding {
+        justify-content: center;
+        width: 45vw;
+    }
+
+    .navbar-toolbox {
+        justify-content: center;
+        width: 45vw;
+        gap: 5px;
+    }
+
+    .tile-container {
+        width: 8vw;
+    }
+
+    .post-an-ad-tile-container {
+        width: 8vw;
+    }
+
+    span {
+        display: none;
+    }
+
+    .post-an-ad-button {
+        font-size: 10px;
+    }
+
+    .navbar-mhl-logo {
+        width: 200px;
+    }
+
+    .navbar-icon {
+        width: 40px;
+    }
+
+} 
+
+@media (min-width: 768px){  
+    .navbar-branding {
+        justify-content: center;
+        width: 45vw;
+    }
+
+    .navbar-toolbox {
+        justify-content: center;
+        width: 45vw;
+    }
+
+    .tile-container {
+        width: 8vw;
+    }
+
+    .post-an-ad-tile-container {
+        width: 8vw;
+    }
+
+    span {
+        display: none;
+    }
+
+    .post-an-ad-button {
+        font-size: 12px;
+    }
+
+    .navbar-mhl-logo {
+        width: 200px;
+    }
+
+    .navbar-icon {
+        width: 40px;
+    }
+}
+
+@media (min-width: 1024px){
+
+}
+
+@media (min-width: 1280px){
+    .navbar-branding {
+        justify-content: center;
+        width: 15vw;
+    }
+
+    .navbar-toolbox {
+        width: 75%;
+        
+        justify-content: flex-end;
+    }
+
+    .tile-container {
+        width: 16%;
+        gap: 5px;
+        justify-content: flex-end;
+    }
+
+    .post-an-ad-tile-container {
+        width: 11%;
+        justify-content: flex-end;
+    }
+
+    span {
+        display: flex;
+    }
+
+    .post-an-ad-button {
+        font-size: 10px;
+    }
+
+    .navbar-mhl-logo {
+        width: 200px;
+    }
+
+    .navbar-icon {
+        width: 30px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .navbar-branding {
+        justify-content: center;
+        width: 25%;
+    }
+
+    .navbar-toolbox {
+        width: 65%;
+        
+        justify-content: flex-end;
+    }
+
+    .tile-container {
+        width: 16%;
+        gap: 5px;
+        justify-content: center;
+    }
+
+    .post-an-ad-tile-container {
+        width: 11%;
+        justify-content: flex-end;
+    }
+
+    span {
+        display: flex;
+    }
+
+    .post-an-ad-button {
+        font-size: 10px;
+    }
+
+    .navbar-mhl-logo {
+        width: 200px;
+    }
+
+    .navbar-icon {
+        width: 30px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .navbar-branding {
+        justify-content: center;
+        width: 35%;
+    }
+
+    .navbar-toolbox {
+        width: 55%;
+        
+        justify-content: flex-end;
+    }
+
+    .tile-container {
+        width: 16%;
+        gap: 5px;
+        justify-content: center;
+    }
+
+    .post-an-ad-tile-container {
+        width: 11%;
+        justify-content: flex-end;
+    }
+
+    span {
+        display: flex;
+    }
+
+    .post-an-ad-button {
+        font-size: 10px;
+    }
+
+    .navbar-mhl-logo {
+        width: 200px;
+    }
+
+    .navbar-icon {
+        width: 30px;
+    }
+}
